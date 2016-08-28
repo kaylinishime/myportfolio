@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="myportfolio">
 <head>
   <meta charset="UTF-8">
   <title>KAYLI</title>
@@ -8,21 +8,25 @@
 
 </head>
 <body>
-  <center>
 
-<div>
-<img src="images/portfolioname.png" class="myname">
-</div>
-
-
-<ol class="breadcrumb">
-    <li><a href="#home" >Home</a></li>
-    <li><a href="#about">About </a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#team" >Photography</a></li>
-    <li><a href="#contacts">Contact</a></li>
-</ol>
+<center>
+  <ol class="breadcrumb">
+      <li><a ui-sref="home">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#projects">PROJECTS</a></li>
+      <li><a href="#team" >PHOTOGRAPHY</a></li>
+      <li><a href="#contacts">CONTACT</a></li>
+  </ol>
 </center>
+
+<div ui-view></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+
+<!-- Include UI Router -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controllers/homeController.js"></script>
 
 
 </body>
