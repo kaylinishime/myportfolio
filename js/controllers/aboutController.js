@@ -7,3 +7,5 @@ function aboutController() {
       var self = this;
 
 }
+
+})()

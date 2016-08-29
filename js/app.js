@@ -14,4 +14,9 @@ app.config(function ($stateProvider, $urlRouterProvider) {
         controller: 'aboutController as about',
         templateUrl: 'js/partials/about.html'
     })
+    .state('projects', {
+        url: '/projects',
+        controller: 'projectsController as projects',
+        templateUrl: 'js/partials/projects.html'
+    })
   })
