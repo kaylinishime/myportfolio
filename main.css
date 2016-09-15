@@ -1,3 +1,43 @@
+#gallery {
+  margin-left: 10%;
+  margin-right: auto;
+  display: block;
+
+}
+
+#albumImage {
+  width: 620px;
+  margin-bottom: 10px;
+  margin-right: auto;
+}
+
+#albumImage img {
+  display: block;
+  margin: auto;
+}
+
+#thumbWrapper {
+  width: 900px;
+  overflow: auto;
+}
+
+#thumbList {
+  white-space: nowrap;
+  margin: 0px;
+}
+
+#thumbList li {
+  display: inline;
+  list-style-type: none;
+  padding-left: 2px;
+  padding-right: 2px;
+  cursor: pointer;
+}
+
+#thumbList li:hover {
+  opacity: 0.5;
+}
+
 
 body {
   width:100%;
@@ -45,10 +85,11 @@ a:focus {
 }
 
 h1 {
-  margin-left: 2em;
-  font-size: 5em;
+  margin-left: 3em;
+  font-size: 3em;
   color: rgba(0,0,0,0.2);
 }
+
 
 p {
     margin-left: 10em;
