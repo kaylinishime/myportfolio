@@ -3,9 +3,9 @@
 angular.module('myportfolio')
     .controller('peopleController', ['$scope', function($scope){
       $scope.images = [
+        {image : "images/elephant3.jpg", thumbnail : "images/elephant3_th.jpg", description : "image 3"},
         {image : "images/elephant1.jpg", thumbnail : "images/elephant1_th.jpg", description : "image 1"},
         {image : "images/elephant2.jpg", thumbnail : "images/elephant2_th.jpg", description : "image 2"},
-        {image : "images/elephant3.jpg", thumbnail : "images/elephant3_th.jpg", description : "image 3"},
         {image : "images/elephant4.jpg", thumbnail : "images/elephant4_th.jpg", description : "image 4"},
         {image : "images/elephant6.jpg", thumbnail : "images/elephant6_th.jpg", description : "image 6"},
         {image : "images/elephant7.jpg", thumbnail : "images/elephant7_th.jpg", description : "image 7"},
