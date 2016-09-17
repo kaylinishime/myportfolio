@@ -24,4 +24,9 @@ app.config(function ($stateProvider, $urlRouterProvider) {
         controller: 'peopleController as people',
         templateUrl: 'js/partials/people.html'
     })
+    .state('contact', {
+        url: '/contact',
+        controller: 'contactController as contact',
+        templateUrl: 'js/partials/contact.html'
+    })
   })

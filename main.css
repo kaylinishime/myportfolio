@@ -1,3 +1,11 @@
+#contact, .contact {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+
 .thailandseries, #video {
   margin-left: auto;
   margin-right: auto;
@@ -115,13 +123,18 @@ h1 {
   color: rgba(0,0,0,0.2);
 }
 
+h4 {
+  margin-left: 7em;
+  color: rgba(0,0,0,0.2);
+
+}
+
 
 p {
-    margin-left: 10em;
+    margin-left: 9em;
     text-align: left;
     width: 25em;
     color: rgba(0,0,0,0.5);
-
 }
 
 .col-md-4 {
@@ -156,4 +169,23 @@ p {
   margin-right: -44em;
   margin-top: -21em;
   text-align: right;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0px 25px;
+  height: 33px;
+  font-size: 12px;
+  line-height: 32px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+  margin-bottom: 7px;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
 }
